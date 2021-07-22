@@ -11,7 +11,7 @@ import (
 func main() {
 
 	if len(os.Args) != 3 {
-		fmt.Printf("Usage %s url\n", os.Args[0])
+		fmt.Printf("Usage %s url download_or_not\n", os.Args[0])
 		os.Exit(1)
 	}
 	s := fiscrap.New()
